@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pagetitle {
+    @apply text-2xl font-bold text-violet-800 bg-neutral-100 py-2 rounded-xl
+  }
+
+  .title {
+    @apply text-center  font-bold text-6xl text-violet-800 select-none
+  }
+
+  .h1 {
+    @apply text-center  font-bold text-xl text-violet-800 select-none
+  }
+}
